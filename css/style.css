@@ -1,0 +1,318 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+
+html {
+	font-size: 16px;
+}
+
+body {
+    background-color: #000000; /* black background */
+}
+
+h1 {
+    font-family: 'Roboto', 'Oswald', Verdana, Arial, sans-serif;
+    color: #ffffff; /* white font */
+    padding: 10px;
+    
+}
+
+h2 {
+    top: 1186px;
+    left: 4px;
+    width: 1921px;
+    height: 330px;
+    /* UI Properties */
+    text-align: left;
+    font: Bold 20px/24px Roboto;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding: 10px;
+}
+
+p {
+    /* UI Properties */
+    text-align: left;
+    font: Bold 20px/24px Roboto;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding: 10px;
+}
+
+
+.header {
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 1921px;
+    height: 98px;
+    /* UI Properties */
+    background: #3D5467 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.footer {
+    /* Layout Properties */
+    top: 2920px;
+    left: 5px;
+    width: 1916px;
+    height: 98px;
+    /* UI Properties */
+    background: #3D5467 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.main_Pic {
+    /* Layout Properties */
+    top: 117px;
+    left: 48px;
+    width: 1824px;
+    height: 935px;
+    /* UI Properties */
+    background: transparent url('images/billieMain.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    padding-left: 48px;
+    padding-top: 10px;
+}
+
+.about_Billie_header {
+    /* Layout Properties */
+    top: 1088px;
+    left: 0px;
+    width: 1921px;
+    height: 98px;
+    /* UI Properties */
+    background: #878E88 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.about_Billie_content {
+    /* Layout Properties */
+    top: 1088px;
+    left: 4px;
+    width: 1920px;
+    height: 442px;
+    /* UI Properties */
+    background: #ACBDBA 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.hobbies {
+    /* Layout Properties */
+    top: 1088px;
+    left: 0px;
+    width: 1921px;
+    height: 98px;
+    /* UI Properties */
+    background: #878E88 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.hobbies_Content {
+    /* Layout Properties */
+    top: 1550px;
+    left: 4px;
+    width: 1920px;
+    height: 442px;
+    /* UI Properties */
+    background: #ACBDBA 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+ul {
+    /* Layout Properties */
+    top: 1610px;
+    left: 41px;
+    width: 1599px;
+    height: 174px;
+    /* UI Properties */
+    text-align: left;
+    font: Bold 40px/47px Roboto;
+    letter-spacing: 0;
+    color: #283044;
+    opacity: 1;
+}
+
+a:link {
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: .5em;
+    color: #ffffff;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:visited {
+    color: firebrick;
+}
+
+.my_Animals {
+    /* Layout Properties */
+    top: 1088px;
+    left: 0px;
+    width: 1921px;
+    height: 98px;
+    /* UI Properties */
+    background: #878E88 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.my_Animals_content {
+    /* Layout Properties */
+    top: 2012px;
+    left: 4px;
+    width: 1920px;
+    height: 442px;
+    /* UI Properties */
+    background: #ACBDBA 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+
+.picture_Gallery {
+    /* Layout Properties */
+    top: 1088px;
+    left: 0px;
+    width: 1921px;
+    height: 98px;
+    /* UI Properties */
+    background: #878E88 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.picture_Gallery_content {
+    /* Layout Properties */
+    top: 2474px;
+    left: 4px;
+    width: 1920px;
+    height: 442px;
+    /* UI Properties */
+    background: #ACBDBA 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+
+figure {
+    display: inline-block;
+    width: 300px
+}
+
+figcaption {
+    text-align: center;
+    font: Bold 40px/47px Roboto;
+    letter-spacing: 0;
+    color: #283044;
+    opacity: 1;
+}
+/*
+p {
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+h1, h2 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    background-color: rgb(185,63,9,100)
+    
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3.052em;
+    padding-top: .500em;
+    margin: 0em;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2.441em;
+    margin: 0em;
+}
+
+h3 {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 500;
+}
+
+ol, ul {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    font-weight: 300;
+}
+
+ol {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+    background-color: rgb(208,76,6,100);
+    border-color: rgb(204,83,23,100);
+    color: #FFFFFF;
+}
+
+ul {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: none;
+}
+address {
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    font-size: .8em;
+}
+
+a[href^=mailto] {
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: .5em;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:visited {
+    color: firebrick;
+}
+
+a {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.sentence {
+    font-size: 1.953em;
+    background-color: rgb(247,112,34,100);
+}
+
+img.cat_Picture {
+    font-family: 'Oswald', Verdana, Arial, sans-serif; 
+    width: 500px;
+}
+
+figcaption {
+    font-weight: 400;
+    font-size: .8em;
+}
+*/

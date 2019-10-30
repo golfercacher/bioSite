@@ -1,7 +1,4 @@
-/*
-font-family: 'Roboto', sans-serif;
-font-family: 'Oswald', sans-serif;
-*/
+
 
 
 html {
@@ -48,7 +45,7 @@ p {
     /* Layout Properties */
     top: 0px;
     left: 0px;
-    width: 1921px;
+    width: 100%;
     height: 98px;
     /* UI Properties */
     background: #3D5467 0% 0% no-repeat padding-box;
@@ -60,7 +57,7 @@ p {
     /* Layout Properties */
     top: 2920px;
     left: 5px;
-    width: 1916px;
+    width: 100%;
     height: 98px;
     /* UI Properties */
     background: #3D5467 0% 0% no-repeat padding-box;
@@ -72,7 +69,7 @@ p {
     /* Layout Properties */
     top: 117px;
     left: 48px;
-    width: 1824px;
+    width: 100%;
     height: 935px;
     /* UI Properties */
     background: transparent url('images/billieMain.png') 0% 0% no-repeat padding-box;
@@ -86,7 +83,7 @@ p {
     /* Layout Properties */
     top: 1088px;
     left: 0px;
-    width: 1921px;
+    width: 100%;
     height: 98px;
     /* UI Properties */
     background: #878E88 0% 0% no-repeat padding-box;
@@ -98,7 +95,7 @@ p {
     /* Layout Properties */
     top: 1088px;
     left: 4px;
-    width: 1920px;
+    width: 100%;
     height: 442px;
     /* UI Properties */
     background: #ACBDBA 0% 0% no-repeat padding-box;
@@ -110,7 +107,7 @@ p {
     /* Layout Properties */
     top: 1088px;
     left: 0px;
-    width: 1921px;
+    width: 100%;
     height: 98px;
     /* UI Properties */
     background: #878E88 0% 0% no-repeat padding-box;
@@ -122,8 +119,8 @@ p {
     /* Layout Properties */
     top: 1550px;
     left: 4px;
-    width: 1920px;
-    height: 442px;
+    width: 100%;
+    height: 300px;
     /* UI Properties */
     background: #ACBDBA 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
@@ -134,7 +131,7 @@ ul {
     /* Layout Properties */
     top: 1610px;
     left: 41px;
-    width: 1599px;
+    width: 100%;
     height: 174px;
     /* UI Properties */
     text-align: left;
@@ -163,7 +160,7 @@ a:visited {
     /* Layout Properties */
     top: 1088px;
     left: 0px;
-    width: 1921px;
+    width: 100%;
     height: 98px;
     /* UI Properties */
     background: #878E88 0% 0% no-repeat padding-box;
@@ -175,8 +172,8 @@ a:visited {
     /* Layout Properties */
     top: 2012px;
     left: 4px;
-    width: 1920px;
-    height: 442px;
+    width: 100%;
+    height: 300px;
     /* UI Properties */
     background: #ACBDBA 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
@@ -188,7 +185,7 @@ a:visited {
     /* Layout Properties */
     top: 1088px;
     left: 0px;
-    width: 1921px;
+    width: 100%;
     height: 98px;
     /* UI Properties */
     background: #878E88 0% 0% no-repeat padding-box;
@@ -200,8 +197,8 @@ a:visited {
     /* Layout Properties */
     top: 2474px;
     left: 4px;
-    width: 1920px;
-    height: 442px;
+    width: 100%;
+    height: 300px;
     /* UI Properties */
     background: #ACBDBA 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
@@ -211,7 +208,6 @@ a:visited {
 
 figure {
     display: inline-block;
-    width: 300px
 }
 
 figcaption {
@@ -221,98 +217,3 @@ figcaption {
     color: #283044;
     opacity: 1;
 }
-/*
-p {
-    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
-    font-weight: 400;
-    line-height: 1.4em;
-}
-
-h1, h2 {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    background-color: rgb(185,63,9,100)
-    
-}
-
-h1 {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 3.052em;
-    padding-top: .500em;
-    margin: 0em;
-}
-
-h2 {
-    font-weight: 500;
-    font-size: 2.441em;
-    margin: 0em;
-}
-
-h3 {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-weight: 500;
-}
-
-ol, ul {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    font-weight: 300;
-}
-
-ol {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 15px;
-    padding: 10px;
-    list-style-position: inside;
-    background-color: rgb(208,76,6,100);
-    border-color: rgb(204,83,23,100);
-    color: #FFFFFF;
-}
-
-ul {
-    border-style: dashed;
-    border-width: 1px;
-    border-color: red;
-    border-radius: 15px;
-    padding: 10px;
-    list-style: none;
-}
-address {
-    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
-    font-size: .8em;
-}
-
-a[href^=mailto] {
-    font-weight: bold;
-    font-size: 1em;
-    padding-top: .5em;
-}
-
-a:hover {
-    color: darkgreen;
-}
-
-a:visited {
-    color: firebrick;
-}
-
-a {
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-    text-decoration: none;
-}
-
-.sentence {
-    font-size: 1.953em;
-    background-color: rgb(247,112,34,100);
-}
-
-img.cat_Picture {
-    font-family: 'Oswald', Verdana, Arial, sans-serif; 
-    width: 500px;
-}
-
-figcaption {
-    font-weight: 400;
-    font-size: .8em;
-}
-*/

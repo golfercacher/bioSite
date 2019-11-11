@@ -143,6 +143,7 @@ a:link {
     font-size: 1em;
     padding-top: .5em;
     color: #ffffff;
+    text-decoration: none;
 }
 
 a:hover {
